@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    
+    .header {
+        possition: relative;
+
+        ul {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            list-style: none;
+            display: flex;
+            margin: 26px;
+
+            li {
+                margin: 0 16px;
+
+                a {
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #fff;
+                }
+
+                a:hover {
+                    transitionn: .3s;
+                    cursor: pointer;
+                    color: #3d5cdb;
+                }
+            }
+        }
+    }
+
+
+    .top {
+        background-size: cover;
+        height: 860px;
+        
+        .top__image {
+            height: 100%;
+            padding: 240px 90px;
+            
+            img {
+                width: 80%;
+                margin: 0 160px;
+            }
+            
+            p {
+                width: 70%;
+                margin: 0 400px;
+                color: white;
+                font-size: 46px;
+            }
+        }
+    }
+    
+    .item {
+        height: 900px;
+        
+        h2 {
+            color: #3d5cdb;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .fuwatAnime {
+         -webkit-animation-fill-mode:both;
+         -ms-animation-fill-mode:both;
+         animation-fill-mode:both;
+         -webkit-animation-duration:1.5s;
+         -ms-animation-duration:1.5s;
+         animation-duration:1.5s;
+         -webkit-animation-name: fuwatAnime;
+         -ms-animation-name: fuwatAnime;
+         animation-name: fuwatAnime;
+         visibility: visible !important;
+        }
+        @-webkit-keyframes fuwatAnime {
+         0% { opacity: 0; -webkit-transform: translateY(-20px); }
+         100% { opacity: 1; -webkit-transform: translateY(0); }
+        }
+        @keyframes fuwatAnime {
+         0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+         100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+        }
+        
+        .item__first {
+            margin: 0 200px;
+            display: flex;
+            
+            .item__first--image {
+                margin-right: 100px;
+                
+                img {
+                    width: 520px;
+                }
+            }
+            
+            .item__first--right {
+                p {
+                    line-height: 2em;
+                }
+                
+                .item__first--right__btn {
+                    width: 160px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: #3d5cdb;
+                    text-align: center;
+                    padding: 4px;
+                    margin: 0 auto;
+                    
+                    a {
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        
+        .item__second {
+            margin: 80px 200px 0;
+            display: flex;
+            
+            .item__second--image {
+                margin-left: 100px;
+                
+                img {
+                    width: 520px;
+                }
+            }
+            
+            .item__second--left {
+                p {
+                    line-height: 2em;
+                }
+                
+                .item__second--left__btn {
+                    width: 160px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: #ffbf00;
+                    text-align: center;
+                    padding: 4px;
+                    margin: 0 auto;
+                    
+                    a {
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        
+        #item__background_color {
+            padding-top: 4px;
+            background-color: #D6E6F9;
+            height: 100%;
+            
+            .item__content {
+                position: relative;
+                
+                h2 {
+                }
+                
+                .item__content__image {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 0px 104px;
+                    
+                    .content_item__image__unit {
+                        width: 268px;
+                        height: 360px;
+                        background-color: #fff;
+                        margin: 10px;
+                        border-radius: 10px;
+                        padding: 34px;
+                        
+                        img {
+                            width: 100px;
+                            margin: 10px 50px;
+                        }
+                        
+                        p {
+                            text-align: center;
+                            font-weight: bold;
+                        }
+                        
+                        .unity_name {
+                            margin-top: 60px;
+                        }
+                        
+                        .ruby_name {
+                            margin-top: 60px;
+                        }
+                        
+                        .swift_name {
+                            margin-top: 60px;
+                        }
+                        
+                        .btn_html{
+                            background-color: #F2642A;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_css{
+                            background-color: #29A9DF;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_unity{
+                            background-color: #333333;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_ruby{
+                            background-color: #FF5252;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_js{
+                            background-color: #FED703;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_swift{
+                            background-color: #FE7436;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        
+                        .btn_go{
+                            background-color: #72CEDD;
+                            padding: 2px;
+                            border-radius: 10px;
+                            
+                            p {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .item__slides {
+            height: 400px;
+            width: 1450px;
+            padiing: 20px;
+            
+            .item__slides__images {
+                margin: 0 128px;
+                
+                img {
+                    width: 300px;
+                }
+            }
+        }
+        
+        .item__map {
+            .item__map__osaka {
+                width: 1000px;
+                margin: 0 420px;
+                
+                iframe {
+                    height: 360px;
+                }
+            }
+        }
+        
+        .footer {
+            padding: 60px;
+            
+            p {
+                color: #3d5cdb;
+                font-weight: bold;
+                text-align: center;
+                margin: 0 20px;
+            }
+        }
+    }
+}

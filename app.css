@@ -1,0 +1,273 @@
+/* line 1, /Users/matsuyasuguru/HappyHack/app.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/matsuyasuguru/HappyHack/app.scss */
+body {
+  margin: 0 auto; }
+
+/* line 9, /Users/matsuyasuguru/HappyHack/app.scss */
+.container {
+  width: auto;
+  margin: 0 auto; }
+  /* line 13, /Users/matsuyasuguru/HappyHack/app.scss */
+  .container .header {
+    possition: relative; }
+    /* line 16, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .header ul {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      list-style: none;
+      display: flex;
+      margin: 26px; }
+      /* line 24, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .header ul li {
+        margin: 0 16px; }
+        /* line 27, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .header ul li a {
+          font-size: 24px;
+          font-weight: bold;
+          color: #fff; }
+        /* line 33, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .header ul li a:hover {
+          transitionn: .3s;
+          cursor: pointer;
+          color: #3d5cdb; }
+  /* line 43, /Users/matsuyasuguru/HappyHack/app.scss */
+  .container .top {
+    background-size: cover;
+    height: 860px; }
+    /* line 47, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .top .top__image {
+      height: 100%;
+      padding: 240px 90px; }
+      /* line 51, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .top .top__image img {
+        width: 80%;
+        margin: 0 160px; }
+      /* line 56, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .top .top__image p {
+        width: 70%;
+        margin: 0 400px;
+        color: white;
+        font-size: 46px; }
+  /* line 65, /Users/matsuyasuguru/HappyHack/app.scss */
+  .container .item {
+    height: 900px; }
+    /* line 68, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item h2 {
+      color: #3d5cdb;
+      text-align: center;
+      font-weight: bold;
+      font-size: 40px; }
+    /* line 75, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .fuwatAnime {
+      -webkit-animation-fill-mode: both;
+      -ms-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1.5s;
+      -ms-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-name: fuwatAnime;
+      -ms-animation-name: fuwatAnime;
+      animation-name: fuwatAnime;
+      visibility: visible !important; }
+
+@-webkit-keyframes fuwatAnime {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@keyframes fuwatAnime {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+    /* line 96, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .item__first {
+      margin: 0 200px;
+      display: flex; }
+      /* line 100, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__first .item__first--image {
+        margin-right: 100px; }
+        /* line 103, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item .item__first .item__first--image img {
+          width: 520px; }
+      /* line 109, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__first .item__first--right p {
+        line-height: 2em; }
+      /* line 113, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__first .item__first--right .item__first--right__btn {
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #3d5cdb;
+        text-align: center;
+        padding: 4px;
+        margin: 0 auto; }
+        /* line 122, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item .item__first .item__first--right .item__first--right__btn a {
+          color: #fff;
+          font-weight: bold;
+          font-size: 20px; }
+    /* line 131, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .item__second {
+      margin: 80px 200px 0;
+      display: flex; }
+      /* line 135, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__second .item__second--image {
+        margin-left: 100px; }
+        /* line 138, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item .item__second .item__second--image img {
+          width: 520px; }
+      /* line 144, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__second .item__second--left p {
+        line-height: 2em; }
+      /* line 148, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__second .item__second--left .item__second--left__btn {
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #ffbf00;
+        text-align: center;
+        padding: 4px;
+        margin: 0 auto; }
+        /* line 157, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item .item__second .item__second--left .item__second--left__btn a {
+          color: #fff;
+          font-weight: bold;
+          font-size: 20px; }
+    /* line 166, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item #item__background_color {
+      padding-top: 4px;
+      background-color: #D6E6F9;
+      height: 100%; }
+      /* line 171, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item #item__background_color .item__content {
+        position: relative; }
+        /* line 177, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item #item__background_color .item__content .item__content__image {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 0px 104px; }
+          /* line 183, /Users/matsuyasuguru/HappyHack/app.scss */
+          .container .item #item__background_color .item__content .item__content__image .content_item__image__unit {
+            width: 268px;
+            height: 360px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 34px; }
+            /* line 191, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit img {
+              width: 100px;
+              margin: 10px 50px; }
+            /* line 196, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit p {
+              text-align: center;
+              font-weight: bold; }
+            /* line 201, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .unity_name {
+              margin-top: 60px; }
+            /* line 205, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .ruby_name {
+              margin-top: 60px; }
+            /* line 209, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .swift_name {
+              margin-top: 60px; }
+            /* line 213, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_html {
+              background-color: #F2642A;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 218, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_html p {
+                color: #fff; }
+            /* line 223, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_css {
+              background-color: #29A9DF;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 228, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_css p {
+                color: #fff; }
+            /* line 233, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_unity {
+              background-color: #333333;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 238, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_unity p {
+                color: #fff; }
+            /* line 243, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_ruby {
+              background-color: #FF5252;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 248, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_ruby p {
+                color: #fff; }
+            /* line 253, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_js {
+              background-color: #FED703;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 258, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_js p {
+                color: #fff; }
+            /* line 263, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_swift {
+              background-color: #FE7436;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 268, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_swift p {
+                color: #fff; }
+            /* line 273, /Users/matsuyasuguru/HappyHack/app.scss */
+            .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_go {
+              background-color: #72CEDD;
+              padding: 2px;
+              border-radius: 10px; }
+              /* line 278, /Users/matsuyasuguru/HappyHack/app.scss */
+              .container .item #item__background_color .item__content .item__content__image .content_item__image__unit .btn_go p {
+                color: #fff; }
+    /* line 287, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .item__slides {
+      height: 400px;
+      width: 1450px;
+      padiing: 20px; }
+      /* line 292, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__slides .item__slides__images {
+        margin: 0 128px; }
+        /* line 295, /Users/matsuyasuguru/HappyHack/app.scss */
+        .container .item .item__slides .item__slides__images img {
+          width: 300px; }
+    /* line 302, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .item__map .item__map__osaka {
+      width: 1000px;
+      margin: 0 420px; }
+      /* line 306, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .item__map .item__map__osaka iframe {
+        height: 360px; }
+    /* line 312, /Users/matsuyasuguru/HappyHack/app.scss */
+    .container .item .footer {
+      padding: 60px; }
+      /* line 315, /Users/matsuyasuguru/HappyHack/app.scss */
+      .container .item .footer p {
+        color: #3d5cdb;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 20px; }
+
+/*# sourceMappingURL=app.css.map */
